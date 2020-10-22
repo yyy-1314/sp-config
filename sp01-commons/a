@@ -1,5 +1,10 @@
 abcd
 achd
 cd
+<<<<<<< HEAD
 1111111
 2222222
+=======
+3333
+4444
+>>>>>>> refs/heads/branch1
