@@ -1,0 +1,26 @@
+spring:
+    application: 
+      name: item-service 
+#server: 
+ # port: 8001
+#eureka的地址
+eureka: 
+  client: 
+    service-url: 
+     defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+#以下 :item集群高可用配置
+---
+spring:
+  profiles: item1
+    
+  
+server:
+  port: 8001
+  
+  
+---
+spring:
+  profiles: itme2
+  
+server:
+  port: 8002
