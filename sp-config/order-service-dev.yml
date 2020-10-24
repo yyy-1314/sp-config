@@ -1,6 +1,12 @@
 spring:
   application: 
    name: order-service
+   #配置连接rabbitmq
+   rabbitmq:
+    host: 192.168.111.131 #自己的ip
+    port: 5672
+    username: admin
+    password: admin 
 #server: 
  # port: 8201
  #eureka的配置
